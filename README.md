@@ -1,31 +1,69 @@
- # Full implementation in java in the environment IntelliJ Idea related to energy consumption management in buildings.
 
--Description of an air conditioner regarding energy consumption (AirConditioner class).
+# Energy Management in Building Facilities
 
--Description of a heating system regarding energy consumption (HeatingSystem class).
+A modular Java application for managing energy, water, lighting, and environmental systems in modern building infrastructures.
 
--Description of a wheeled vehicle in terms of energy consumption (Vehicle class).
+## Overview
 
--Classroom description regarding electricity which it consumes (StudyRoom class).
+This project simulates a smart building management system using Java. It includes multiple modules that monitor and control:
 
--Description of a public facility such as a public building, an organization etc. regarding the energy it consumes (PublicFacility class).
+- Photovoltaic (solar) panel operations
+- HVAC (Heating, Ventilation, and Air Conditioning) systems
+- Power and water consumption
+- Lighting and sound systems
+- Building security mechanisms
 
--Description of a microservice for power consumption (EnergyMicroservice).
+The application is designed with modular logic and is built using **IntelliJ IDEA**.
 
--Description of a microservice for light consumption (LightMicroservice class ).
+## Features
 
--Description of a microservice for water consumption (WaterMicroservice class).
+✅ Microservice for photovoltaic panel control  
+✅ HVAC system monitoring  
+✅ Lighting and sound automation  
+✅ Water and power usage tracking  
+✅ Basic security system simulation  
+✅ User-friendly structure and well-organized backend logic
 
--Description of the air cleaning system (HVACSystem class).
+## Technologies Used
 
--Description of a microservice for energy consumption in a building (BuildingEnergyMicroservice class).
+- Java (OOP)
+- IntelliJ IDEA
+- Modular architecture design
+- Simulated sensors and state management
 
--Microservice that controls the photovoltaic panels on a building (SolarMicroservice class).
+## Project Structure
 
--Management of the sound of a building, an installation, etc (SoundSystem class).
+```
+/src
+  /main
+    /java
+      /controller
+      /services
+      /model
+      /ui
+```
 
--Security management of a building, an installation, etc (SecuritySystem class).
+> Each package is responsible for a specific functional aspect, promoting separation of concerns and clarity in development.
 
--Power consumption management regarding internet security etc (InternetService class).
+## Getting Started
 
--Declaration of all class instances and calling all methods of the classes (Main class).
+1. Clone the repository  
+```bash
+git clone https://github.com/Kokonelas/Energy_Management_In_Building_Facilities.git
+```
+
+2. Open the project in IntelliJ IDEA  
+3. Run the main application file  
+4. Use the simulated UI to explore each module
+
+## Motivation
+
+This project was developed as part of my academic training to explore how **intelligent building systems** can be designed and managed with software. My goal was to create a practical and modular system that mimics real-world scenarios in building energy management.
+
+## Author
+
+**Andreas Kokonelis**  
+Computer Engineering & Informatics  
+University of Patras
+
+[LinkedIn](https://linkedin.com/in/andreas-kokonelis) | [GitHub](https://github.com/Kokonelas)
